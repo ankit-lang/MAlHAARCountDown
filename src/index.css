@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.malhaar{
+  display: inline;
+ font-size: 72px;
+ position: relative;
+
+top: 19px;
+left: 72px;
+
+
+background: linear-gradient(to right, #ff7e5f, #feb47b, #df3e15);
+-webkit-background-clip: text;
+background-clip: text;
+
+}
