@@ -5,6 +5,7 @@
 
 }
 .malhaar{
+width: 15%;
   display: inline;
  font-size: 72px;
  position: relative;
@@ -17,4 +18,38 @@ background: linear-gradient(to right, #ff7e5f, #feb47b, #df3e15);
 -webkit-background-clip: text;
 background-clip: text;
 
+}
+.background-color{
+  background-color: black;
+}
+.nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  position: fixed;
+
+  
+}
+.nav-buttons{
+  width: 75%;
+  display: flex;
+ 
+  align-items: center;
+  justify-content:center;
+}
+.nav-buttons button{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.Register{
+  width: 10%;
+}
+.Register button{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  font-size: 18px;
 }

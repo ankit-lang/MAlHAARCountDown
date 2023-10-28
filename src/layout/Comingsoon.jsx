@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
 
+
 const Comingsoon = () => {
   return (
-    <div>
+    
+    <div className='navbar'>
       <Navbar/>
     </div>
+    
   )
 }
 
