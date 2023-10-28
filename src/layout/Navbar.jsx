@@ -1,19 +1,22 @@
-import React from 'react'
-import MalText from "../assets/Malhaatext.jpg"
+import React from 'react';
+import MalText from "../assets/Malhaartext.jpg";
 const Navbar = () => {
   return (
     <div className='nav'>
       
-        <p className='malhaar'><img src={MalText} alt="text" /></p>
+      <p className='malhaar'><img src={MalText} alt="text" /></p>
       
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      
+      <div className='nav-buttons'>
+        <button>Home</button>
+        <button>Tickets</button>
+        <button>Schedule</button>
+        <button>Sponsors</button>
+        <button>Team</button>
+        <button>About</button>
+      </div>
+      <div className='Register'>
+        <button>Register Now</button>
+      </div>
     </div>
   )
 }
