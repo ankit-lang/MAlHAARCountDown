@@ -11,7 +11,7 @@ const Comingsoon = () => {
   });
 
   const interval = setInterval(() => {
-    const futTime = new Date("2023-11-11T00:00:00").getTime();
+    const futTime = new Date("2023-11-30T00:00:00").getTime();
     const diff = futTime - +new Date();
     let days, min, hour, sec;
     let differnce = diff;
