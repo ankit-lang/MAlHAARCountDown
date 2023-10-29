@@ -1,55 +1,86 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
+  
+  
 }
-.malhaar{
-width: 15%;
+body{
+  background-image: url(../src/assets/bgMalhaarproper.jpg);
+  object-fit: cover;
+}
+.malhaar {
+  width: 15%;
   display: inline;
- font-size: 72px;
- position: relative;
+  font-size: 72px;
+  position: relative;
 
-top: 19px;
-left: 72px;
+  top: 19px;
+  left: 72px;
 
-
-background: linear-gradient(to right, #ff7e5f, #feb47b, #df3e15);
--webkit-background-clip: text;
-background-clip: text;
-
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #df3e15);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
-.background-color{
+.background-color {
   background-color: black;
 }
-.nav{
+.nav {
   display: flex;
+  height: 20%;
   width: 100%;
   align-items: center;
   display: flex;
-  position: fixed;
-
-  
+  position: sticky;
 }
-.nav-buttons{
+.nav-buttons {
   width: 75%;
   display: flex;
- 
+
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
-.nav-buttons button{
+.nav-buttons button {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 4px;
   font-size: 18px;
 }
-.Register{
+.Register {
   width: 10%;
 }
-.Register button{
+.Register button {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 4px;
   font-size: 18px;
+}
+
+/* .logo{ */
+  /* position: absolute; */
+  /* z-index: 50; */
+  /* opacity: 40%; */
+  /* margin: 4rem; */
+  /* border-radius: 50px; */
+/* } */
+.countDown{
+  position: relative;
+
+  top: 5rem;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 4vmax;
+  justify-content: center;
+  align-items: center;
+  color: #09B9DF;
+  
+}
+.timer{
+  color: white;
+  display: flex;
+  gap: 2vw;
+}
+.timerText{
+  font-size: 1vw;
 }
