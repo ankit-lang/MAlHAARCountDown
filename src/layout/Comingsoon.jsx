@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
-import logoMalhaar from "../assets/soonLogo.jpg";
+import bgmalhaar from "../assets/bgMalhaarproper.jpg";
 
 const Comingsoon = () => {
   const [date, setDate] = useState({
@@ -16,10 +16,10 @@ const Comingsoon = () => {
     let days, min, hour, sec;
     let differnce = diff;
     days = Math.floor(differnce / (1000 * 60 * 60 * 24)).toString();
-    hour = Math.floor((differnce / (1000 * 60 * 60)) % 24).toString(); 
+    hour = Math.floor((differnce / (1000 * 60 * 60)) % 24).toString();
     min = Math.floor((differnce / (1000 * 60)) % 60).toString();
     sec = Math.floor((differnce / 1000) % 60).toString();
- 
+
     setDate({
       days: days,
       hours: hour,
@@ -37,13 +37,15 @@ const Comingsoon = () => {
     }
   }, 1000);
 
+
   return (
     <>
       <div className="navbar">
         <Navbar />
       </div>
+
       <div className="malhaar-logo">
-        
+        <img src={bgmalhaar} alt="logo" />
       </div>
       {/* <div className="logo"><img src={logoMalhaar} alt="" /></div> */}
       <div className="countDown">
