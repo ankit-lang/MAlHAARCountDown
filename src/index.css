@@ -6,32 +6,37 @@
   
 }
 body{
-  background-image: url(../src/assets/bgMalhaarproper.jpg);
+  /* background-image: url(../src/assets/bgMalhaarproper.jpg); */
+  background-color: #121212;
   object-fit: cover;
 }
+.malhaar img{
+  width: 100%;
+}
+
 .malhaar {
   width: 15%;
   display: inline;
   font-size: 72px;
   position: relative;
 
-  top: 19px;
-  left: 72px;
-
+  top: 10px;
+  left: 30px;
+  
   background: linear-gradient(to right, #ff7e5f, #feb47b, #df3e15);
   -webkit-background-clip: text;
   background-clip: text;
 }
-.background-color {
-  background-color: black;
-}
+
 .nav {
   display: flex;
-  height: 20%;
+  height: 40%;
   width: 100%;
   align-items: center;
+  justify-content: center;
   display: flex;
   position: sticky;
+  background-color: #121212;
 }
 .nav-buttons {
   width: 75%;
@@ -43,17 +48,30 @@ body{
 .nav-buttons button {
   margin-left: 20px;
   margin-right: 20px;
+  
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 14px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: #121212;
+  border-color:  rgb(219, 56, 179);
+
 }
 .Register {
   width: 10%;
 }
 .Register button {
+  
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 22px;
+  height: 40px;
+  width: 175px;
+  color: white;
+  background-color: #121212;
+  border-color:  #09B9DF;
 }
 
 /* .logo{ */
@@ -63,11 +81,22 @@ body{
   /* margin: 4rem; */
   /* border-radius: 50px; */
 /* } */
+
+.malhaar-logo{
+  height: 580px;
+  margin: 0px 100px 0 515px;
+  background-image: url(../src/assets/bgMalhaarproper.jpg);
+  background-repeat: no-repeat;
+}
+
+
+
+
 .countDown{
   position: relative;
 
-  top: 5rem;
-  height: 50vh;
+  /* top: 5rem; */
+  /* height: 50vh; */
   display: flex;
   flex-direction: column;
   font-size: 4vmax;

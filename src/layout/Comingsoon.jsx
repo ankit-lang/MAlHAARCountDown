@@ -42,6 +42,9 @@ const Comingsoon = () => {
       <div className="navbar">
         <Navbar />
       </div>
+      <div className="malhaar-logo">
+        
+      </div>
       {/* <div className="logo"><img src={logoMalhaar} alt="" /></div> */}
       <div className="countDown">
         <h4>MALHAAR STARTS IN</h4>
