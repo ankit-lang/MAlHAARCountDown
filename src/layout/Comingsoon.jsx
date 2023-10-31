@@ -48,6 +48,7 @@ const Comingsoon = () => {
         <img src={bgmalhaar} alt="logo" />
       </div>
       {/* <div className="logo"><img src={logoMalhaar} alt="" /></div> */}
+      <div className="box">
       <div className="countDown">
         <h4>MALHAAR STARTS IN</h4>
 
@@ -69,6 +70,7 @@ const Comingsoon = () => {
             <p className="timerText">SEC</p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

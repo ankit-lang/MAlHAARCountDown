@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: white;
   
   
 }
@@ -13,6 +14,11 @@ body{
   
 
 }
+.bar{
+  position: relative;
+  right: -20vmax;
+  font-size: 2vw;
+}
 .malhaar img{
   width: 100%;
 }
@@ -23,28 +29,26 @@ body{
   font-size: 72px;
   position: relative;
 
-  top: 10px;
-  left: 30px;
+
+  left: 1.5vmax;
   
   background: linear-gradient(to right, #ff7e5f, #feb47b, #df3e15);
   -webkit-background-clip: text;
   background-clip: text;
 }
-.navbar{
-  width: 100vmax;
-}
+
 .nav {
   display: flex;
   height: 35%;
-  width: 100vmax;
+  width: 90vmax;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around ;
   display: flex;
   position: sticky;
   background-color: #121212;
 }
 .nav-buttons {
-  width: 75%;
+  width: 70%;
   display: flex;
 
   align-items: center;
@@ -53,7 +57,7 @@ body{
 .nav-buttons button {
   margin-left: 20px;
   margin-right: 20px;
-  
+  cursor: pointer;
   border-radius: 4px;
   font-size: 14px;
   height: 30px;
@@ -71,11 +75,12 @@ body{
 .Register button {
   
   margin-left: 20px;
+  cursor: pointer;
   margin-right: 20px;
   border-radius: 4px;
   font-size: 22px;
   
-  height: 40px;
+  height: 5vh;
   width: 175px;
   color: white;
   background-color: #121212;
@@ -95,27 +100,34 @@ body{
 
   position: relative;
   display: flex;
-  /* right: 50%; */
+
   transform: translateX(-25%);
   align-items: center;
   justify-content: center;
-  height: 580px;
-  margin: 0px 100px 0 515px;
+  width: 70vmax;
+  margin: 0vmax 10rem 0 32vmax;
 
   
+}
+.malhaar-logo img{
+  width: 100%;
 }
 
 
 
-
+.box{
+  width: 100vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .countDown{
-  position: relative;
- /* margin-top: -5rem; */
-
-  /* height: 50vh; */
+  position : relative;
   display: flex;
   flex-direction: column;
   font-size: 4vmax;
+ 
+  bottom: -5vmax ;
   justify-content: center;
   align-items: center;
   color: #09B9DF;
@@ -128,4 +140,23 @@ body{
 }
 .timerText{
   font-size: 1vw;
+}
+
+
+@media screen and (max-width : 900px){
+  .bar{
+    position: relative;
+   font-size: 1.5rem;
+    color: #09B9D4;
+    display: block;
+    right: -10rem;
+    cursor: pointer;
+
+  }
+  .nav-buttons{
+    /* display: none; */
+  }
+  .malhaar{
+
+  }
 }
